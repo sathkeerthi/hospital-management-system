@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layoutContainer{
+  background: linear-gradient(to bottom, rgb(105, 105, 246), cyan);
+}
+
+/* Nav bar - starts here */
+
+.navbarContainer{
+  display: flex;
+  flex-basis: auto;
+}
+.navbarContainer .menuItems{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+/* Nav bar - ends here */
+
+
+/* Home page - starts here */
+
+.homepageMainContainer{
+  background: linear-gradient(to right, blue, cyan);
+  margin: 20px;
+  /* padding: 20px; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.homepageMainContainer .homepageFirstChildContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.homepageMainContainer .homepageSecondChildContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.homepageMainContainer .homepageSecondChildContainer img{
+  width: 100%;
+}
